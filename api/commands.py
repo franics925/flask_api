@@ -1,5 +1,5 @@
 import click
-from clask.cli import with_appcontext
+from flask.cli import with_appcontext
 
 from . import db
 from .models import Item
@@ -7,5 +7,5 @@ from .models import Item
 @click.command(name='reset_items')
 @with_appcontext
 def reset_items():
-    db.drop_all()
-    db.create_all()
+  db.drop_all()
+  db.create_all()
