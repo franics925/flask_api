@@ -10,6 +10,8 @@ pylint = "*"
 flask = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
